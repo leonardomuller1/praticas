@@ -1,0 +1,430 @@
+/* geral */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  background: #4455dd;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-branco {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  border: #000 solid;
+}
+.titulo {
+  color: #000;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 900;
+}
+
+.subtitulo {
+  color: 20px;
+  font-weight: bolder;
+  line-height: 25px;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 10px 0;
+  background: #f2f2ff;
+  z-index: 10;
+}
+
+.header div a img {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.header_menu li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* introduçao */
+
+.investimento h1 {
+  margin: 150px 200px 40px 60px;
+}
+
+.investimento a {
+  margin-left: 100px;
+}
+
+.investimento img {
+  height: 330px;
+  display: inline;
+  margin: 100px 0 0 0;
+}
+
+/* valores */
+.valores {
+  background: #4455dd;
+  width: 100%;
+  height: 150px;
+}
+
+.valores div {
+  display: inline;
+  margin-bottom: 100px;
+}
+
+.valores div ul li {
+  display: inline-block;
+  height: 120px;
+  width: 200px;
+  margin: 12px 60px;
+  text-align: center;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.valores div ul li h2 {
+  color: #000;
+  font-size: 20px;
+}
+
+.valores div ul li h3 {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.valores div ul li h4 {
+  margin-bottom: 15px;
+}
+
+.valores div ul li a {
+  margin-right: 0px;
+}
+
+/* serviços */
+.servico {
+  margin-left: auto;
+}
+
+.servico h1 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.servico h2 {
+  text-align: center;
+  font-size: 19px;
+  margin-left: auto;
+  font-weight: bold;
+}
+.servico img {
+  height: 300px;
+  padding: 10px;
+  margin: auto;
+}
+.servico p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.servico button {
+  position: relative;
+  top: -20px;
+  left: 43%;
+}
+
+/* comentario */
+.comentario {
+  background: url(../imagens/pexels-elle-hughes-1680172.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.comentario blockquote {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.comentario blockquote h2 {
+  color: #fff;
+  font-size: 48px;
+  width: 70%;
+  position: relative;
+  top: 170px;
+  left: 250px;
+  padding: 0;
+}
+
+.comentario blockquote h2:first-child {
+  font-size: 100px;
+  top: 240px;
+  left: 200px;
+}
+
+.comentario blockquote cite {
+  color: #fff;
+  position: relative;
+  top: 180px;
+  left: 400px;
+}
+/* form */
+.contato_form {
+  width: 100%;
+  height: 400px;
+}
+
+.contato_form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contato_form input {
+  color: #000;
+  display: block;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  background: #d1d1d15b;
+  border: 2px solid #000;
+}
+
+.contato_form textarea {
+  color: #000;
+  display: block;
+  line-height: 30px;
+  width: 400px;
+  background: #d1d1d15b;
+  border: 2px solid #000;
+}
+
+.contato_form .btn {
+  margin: 7px 140px;
+}
+
+/* footer */
+.footer {
+  background-color: #000;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.footer p,
+.footer li {
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+}
+.footer div {
+  margin-right: 70px;
+}
+.mapa {
+  margin: 10px 10px 10px 4000px;
+}
+.social {
+  margin: 10px 100px 10px 100px;
+}
+
+.social ul li a {
+  color: #fff;
+}
+
+.social ul li {
+  font-size: 60px;
+  color: #fff;
+  display: inline;
+  margin-right: 25px;
+}
+
+/* responsivel */
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* menu */
+  .header {
+    position: relative;
+  }
+  .header_menu {
+    margin: 0 30px;
+  }
+}
+
+/* investimento */
+.investimento h1 {
+  width: 400px;
+  font-size: 35px;
+}
+.investimento img {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.investimento button {
+  margin-bottom: 100px;
+}
+/* valores */
+.valores {
+  height: 150px;
+}
+.valores div ul li {
+  margin: 10px 60px 0px 50px;
+}
+/* servico */
+.servico h1 {
+  font-size: 30px;
+  margin: 10px 0px -60px 1px;
+}
+/* comentario */
+.comentario blockquote h2 {
+  color: #fff;
+  font-size: 48px;
+  width: 70%;
+  position: relative;
+  top: 17px;
+  left: 80px;
+  padding: 0;
+}
+
+.comentario blockquote h2:first-child {
+  font-size: 100px;
+  top: 67px;
+  left: 50px;
+}
+
+.comentario blockquote cite {
+  color: #fff;
+  position: relative;
+  top: 35px;
+  left: 120px;
+}
+/* form */
+.contato img {
+  width: 280px;
+  margin: 40px 0 0 50px;
+}
+/* footer */
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 190px;
+}
+.mapa {
+  margin: 10px 10px 10px 40px;
+}
+.social {
+  margin: 10px -4000px 10px 0px;
+}
+.social ul li {
+  font-size: 40px;
+}
+
+/* celular */
+@media only screen and (max-width: 767px) {
+  /* header */
+  .header {
+    height: 170px;
+    position: relative;
+  }
+  .header div a img {
+    height: 60px;
+  }
+  .header_menu ul li {
+    display: block;
+    margin: 0 -10px 7px 10px;
+    text-align: center;
+  }
+
+  /* introducao */
+  .investimento h1 {
+    margin: 25px 0px 10px -20px;
+  }
+  .investimento a {
+    margin-left: 80px;
+  }
+  .investimento img {
+    margin-top: -100px;
+  }
+  /* valores */
+  .valores {
+    background: #4455dd;
+    width: 100%;
+    height: 400px;
+  }
+  /* serviços */
+  .servico p {
+    margin-bottom: 10px;
+  }
+  .servico button {
+    position: relative;
+    top: -15px;
+    left: 32%;
+  }
+  /* comentario */
+  .comentario blockquote h2 {
+    font-size: 28px;
+    position: relative;
+    top: 200px;
+    left: 70px;
+  }
+  .comentario blockquote h2:first-child {
+    top: 250px;
+    left: 40px;
+  }
+  .comentario blockquote cite {
+    top: 200px;
+    left: 100px;
+  }
+  /* form */
+  .contato_form input,.contato_form textarea {
+    width: 100%;
+  }
+  .contato_form .btn {
+    margin: 7px 110px;
+  }
+  .contato div img{
+    margin: 0;
+  }
+  /* footer */
+  .footer{
+    height: 240px;
+  }
+  .social {
+    margin: 10px 100px 10px 40px;
+  }
+}

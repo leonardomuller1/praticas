@@ -17,5 +17,5 @@ Clone do Spotify
 Clonde do Tinder
 
 <h1 align="center">
-    <img alt="Tinder" src="github/tinder.png" width="200px" />
+    <img alt="Tinder" src="github/tinder.png"/>
 </h1>

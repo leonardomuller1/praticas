@@ -3,7 +3,7 @@ Praticas feitas por mim, em tutorias e sozinho
 
 <h1>IT Solutions</h1>
 Pagina de uma empresa que presta serviços, onde explica seus serviços e tem uma galeria
-![IT Solutions](/imges/itsolutions.mp4)
+(/imges/itsolutions.mp4)
 
 <h1>little-invest</h1>
 Empresa de investimentos onde mostras suas vantagens

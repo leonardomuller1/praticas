@@ -18,7 +18,7 @@ Clone do Spotify
     <img alt="Spotify" src="github/spotify.gif"/>
 </h1>
 <h1>Tinder</h1>
-Clonde do Tinder
+Clone do Tinder
 
 <h1 align="center">
     <img alt="Tinder" src="github/tinder.png"/>
